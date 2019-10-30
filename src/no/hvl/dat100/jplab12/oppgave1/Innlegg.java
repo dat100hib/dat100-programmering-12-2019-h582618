@@ -10,10 +10,7 @@ public abstract class Innlegg {
 	protected int likes;
 	
 	public Innlegg() {
-//		this.id = id;
-//		this.bruker = bruker;
-//		this.dato = dato;
-//		this.likes = likes;
+
 	}
 	
 	public Innlegg(int id, String bruker, String dato) {
@@ -82,7 +79,6 @@ public abstract class Innlegg {
 		return lik;
 
 	}
-	
 	@Override
 	public String toString() {
 		
