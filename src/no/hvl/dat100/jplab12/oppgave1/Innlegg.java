@@ -1,5 +1,4 @@
 package no.hvl.dat100.jplab12.oppgave1;
-
 import no.hvl.dat100.jplab12.common.TODO;
 
 public abstract class Innlegg {
@@ -83,11 +82,10 @@ public abstract class Innlegg {
 	public String toString() {
 		
 		String str = this.id + "\n" + this.bruker + "\n" + this.dato +"\n" + this.likes +"\n";
-		
+
 		return str;
 				
 	}
-	
 	// Metoden nedenfor er kun for valgfri oppgave 6
 	public String toHTML() {
 		
